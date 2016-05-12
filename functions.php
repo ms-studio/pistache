@@ -28,9 +28,6 @@ add_filter( 'jetpack_development_mode', '__return_true' );
  ********************
 */
 
-// if( class_exists( 'Jetpack' ) && Jetpack::is_module_active( 'custom-post-types' ) ) 
-
-
 
 add_action( 'init', 'pistache_register_post_types' );
 
